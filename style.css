@@ -1,0 +1,87 @@
+
+/* body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+*{
+    padding : 0;
+    margin : 0;
+}
+
+   div h1.font{
+       color : white;
+       background-color: rgb(230, 88, 135);
+       display : flex;
+       align-items: center;
+       justify-content: center;
+       padding : 4rem;
+       font-family : sans-serif;
+       font-size : 6rem;
+       margin-top : 15%;
+       padding-left: 5%;
+   }
+
+   @media  ( max-width : 540px) {
+        div h1.font{
+            display : flex;
+            justify-content: center;
+            font-size : 50px;
+            /* margin-left : 50px; */
+            padding-left: 70px;
+            /* margin-bottom : 100px; */
+            margin-top: 55px;
+        }
+           
+   }
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+/* .parent-div{
+    display : flex;
+    justify-content: center; */
+    /* width : 10%; */
+    /* flex-direction: column; */
+    /* align-items : center;  */
+    
+    /* flex : 1;
+    flex-basis : 2; */
+    /* background-color: blue;
+    border : 2px solid black;
+    padding-left : 8%;
+
+} */
+
+/* .child-div{
+    border : 2px solid blue; */
+    /* color : white; */
+    /* width : 50%; */
+    /* padding-left: 50%; */
+    /* background-color: lightcoral;
+     display : flex; */
+    /* align-items: center; */
+    /* justify-content: center; 
+    padding : 2rem;
+} */
+
+/* div h1.font{ */
+    /* font-family : sans-serif; */
+    /* font-weight : bold; */
+    /* font-size : 4rem; */
+    /* display : flex;
+    align-items: center; */
+/* } */
+
+
